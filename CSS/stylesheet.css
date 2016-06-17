@@ -25,7 +25,8 @@ margin-top: -3em;
 }
 .tabla{
   display: table;
-  width: 15%;
+  width: 10%;
+  height: 10px;
   margin-left:12vw;
   border: solid black;
 }
@@ -50,12 +51,19 @@ float:left;
 .c1,.c2,.c3,.c4{z-index: -1;
 float: left;
 display: table-row;
-margin-right: 10%;
+
 position: relative;}
 .c5,.c6,.c7,.c8{z-index: +11;
 float:left;
 display: table-row;
-position: relative;}
+position: absolute;
+left: 1600px;}
+.c9,.c10,.c11,.c12{z-index: +11;
+float:left;
+display: table-row;
+
+position: absolute;
+top: 600px;}
 .c1{
   height: 15vw;
   width: 15vw;
@@ -73,7 +81,6 @@ position: relative;}
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
-
   
   background: url('http://rulotico.github.io/GifsParty/img/giphy.gif ') center no-repeat;
 
@@ -148,5 +155,76 @@ position: relative;}
   background: url('http://rulotico.github.io/GifsParty/img/Peter.gif ') center no-repeat;
 
 }
+.c9{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/jj.gif ') center no-repeat;
+
+}
+.c10{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/coche-y-automovil-deportivo-imagen-animada-0044.gif ') center no-repeat;
+
+}
+.c11{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/arturo.gif ') center no-repeat;
+
+}
+.c12{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  z-index: +1;
+  padding-left: 20px;
+  background: url('http://rulotico.github.io/GifsParty/img/leovi.gif ') center no-repeat;
+
+}
+.c13{
+
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  right: 1600px;
+  z-index: +1;
+  top: -10vh;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/Peter.gif ') center no-repeat;
+
+}
+
+.Flogo{
+
+margin-right:10%;
+position:absolute;
+z-index: 10;
+  top: 50px; 
+  right: 50px;
+}
+
+
 
 
