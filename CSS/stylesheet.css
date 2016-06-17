@@ -51,12 +51,13 @@ float:left;
 .c1,.c2,.c3,.c4{z-index: -1;
 float: left;
 display: table-row;
+position:relative;
 
 position: relative;}
 .c5,.c6,.c7,.c8{z-index: +11;
 float:left;
 display: table-row;
-position: absolute;
+position: relative;
 left: 1600px;}
 .c9,.c10,.c11,.c12{z-index: +11;
 float:left;
@@ -81,7 +82,7 @@ top: 600px;}
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
-  
+  top: 400px; left: 200px;
   background: url('http://rulotico.github.io/GifsParty/img/giphy.gif ') center no-repeat;
 
 }
@@ -100,6 +101,7 @@ top: 600px;}
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
+  top: 100px; left: 350px;
   position:relative;
 
 
@@ -207,11 +209,9 @@ top: 600px;}
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
-  right: 1600px;
   z-index: +1;
-  top: -10vh;
-
-  
+ margin-left: 25%;
+  margin-right: auto;
   background: url('http://rulotico.github.io/GifsParty/img/Peter.gif ') center no-repeat;
 
 }
