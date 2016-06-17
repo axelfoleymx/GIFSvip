@@ -1,5 +1,13 @@
+html { 
+  background: url(http://palazzodisco.com/images/tepic/default.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{
-  background-color: orange;
+  height:10000px; 
+  width:10000px;
 }
 .footer{
   font-family: Arial;
@@ -9,29 +17,136 @@ text-align: center;
 bottom:0px;
 
 clear: both;
-position:relative;
+position:absolute;
 z-index: 10;
 height: 2cm;
+width: 100%;
 margin-top: -3em;
 }
+.tabla{
+  display: table;
+  width: 15%;
+  margin-left:12vw;
+  border: solid black;
+}
+.fila{
 
+float:left;
+}
 .me{
+  height: 15vw;
+  width: 15vw;
+  border-radius: 60vw 60vw 60vw 60vw;
+ margin-top: 0px;
+  margin-left: 25%;
+  margin-right: auto;
+
+  position: fixed;
+  
+  background: url('http://rulotico.github.io/GifsParty/img/bobe.gif ') center no-repeat;
+
+}
+
+.c1,.c2,.c3,.c4{z-index: -1;
+float: left;
+display: table-row;
+margin-right: 10%;
+position: relative;}
+.c5,.c6,.c7,.c8{z-index: +11;
+float:left;
+display: table-row;
+position: relative;}
+.c1{
   height: 15vw;
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
   margin:auto;
+
   
-  background: url('http://rulotico.github.io/GifsParty/img/bobe.gif ') center no-repeat;
+  background: url('http://rulotico.github.io/GifsParty/img/rulotico.gif') center no-repeat;
 
 }
+
 .c2{
   height: 15vw;
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
-  margin:auto;
+
   
   background: url('http://rulotico.github.io/GifsParty/img/giphy.gif ') center no-repeat;
 
 }
+
+.c3{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  
+  background: url('http://rulotico.github.io/GifsParty/img/karen.gif ') center no-repeat;
+
+}
+.c4{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/sherley.gif ') center no-repeat;
+
+}
+.c5{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/thrillerzombie.gif ') center no-repeat;
+
+}
+.c6{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/pako.gif ') center no-repeat;
+
+}
+.c7{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/Simba.gif ') center no-repeat;
+
+}
+.c8{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  position:relative;
+  z-index: +1;
+
+  
+  background: url('http://rulotico.github.io/GifsParty/img/Peter.gif ') center no-repeat;
+
+}
+
+
