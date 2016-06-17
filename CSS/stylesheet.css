@@ -42,9 +42,8 @@ float:left;
   height: 15vw;
   width: 15vw;
   border-radius: 60vw 60vw 60vw 60vw;
- margin-top: 0px;
-  margin-left: 25%;
-  margin-right: auto;
+   left: 43%;top:15%;
+  margin-right: 50%;
 
   position: fixed;
   
