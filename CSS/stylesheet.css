@@ -1,0 +1,18 @@
+body{
+  background-color: orange;
+}
+.footer{
+  font-family: Arial;
+  background-color: black;
+
+
+text-align: center;
+
+
+
+clear: both;
+position:absolute;
+z-index: 10;
+height: 2cm;
+margin-top: -3em;
+}
