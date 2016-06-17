@@ -75,7 +75,7 @@ top: 600px;}
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
   margin:auto;
-
+top: 100px;
   
   background: url('http://rulotico.github.io/GifsParty/img/rulotico.gif') center no-repeat;
 
@@ -86,7 +86,7 @@ top: 600px;}
   width: 15vw;
   background-color; black;
   border-radius: 60vw 60vw 60vw 60vw;
-  top: 400px; left: 200px;
+  top: 400px; left: 350px;
   background: url('http://rulotico.github.io/GifsParty/img/giphy.gif ') center no-repeat;
 
 }
@@ -201,6 +201,7 @@ top: 600px;}
   height: 15vw;
   width: 15vw;
   background-color; black;
+  right: 500px;
   border-radius: 60vw 60vw 60vw 60vw;
   z-index: +1;
   padding-left: 20px;
