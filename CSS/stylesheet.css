@@ -15,7 +15,7 @@ height: 2cm;
 margin-top: -3em;
 }
 
-.me {
+.me{
   height: 15vw;
   width: 15vw;
   background-color; black;
@@ -23,5 +23,15 @@ margin-top: -3em;
   margin:auto;
   
   background: url('http://rulotico.github.io/GifsParty/img/bobe.gif ') center no-repeat;
+
+}
+.c2{
+  height: 15vw;
+  width: 15vw;
+  background-color; black;
+  border-radius: 60vw 60vw 60vw 60vw;
+  margin:auto;
+  
+  background: url('http://rulotico.github.io/GifsParty/img/giphy.gif ') center no-repeat;
 
 }
